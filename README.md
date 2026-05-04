@@ -23,6 +23,9 @@ Ce projet transforme les données brutes de la NFL en avantages tactiques pour l
 *   **Visualisation & Reporting :** Looker Studio.
 
 ## Insights Clés & Résultats
+
+L'ensemble des dashboards finaux sont accessibles à l'adresse suivante : https://datastudio.google.com/reporting/9e5cad15-af7e-4057-ac06-7f198721c7d3. Vous trouverez ci-dessous quelques insights mis en avant grâce aux analyses.
+
 ### 1. Analyse de la Performance (Player Analytics)
 *   **Kyler Murray (QB) :** Classé 11ème sur 45 QB, avec une performance en yards par match supérieure de 9,7 % à la moyenne de la ligue, son taux de turnover est néanmoins bie nplus élevé que la moyenne de la ligue.
 *   **James Conner (RB) :** Malgré une productivité élevée (+12,4 % vs ligue), l'analyse identifie un besoin de succession dû à son âge de 30 ans.
