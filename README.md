@@ -82,11 +82,11 @@ Stack : **BigQuery, SQL, dbt et Looker Studio**.
 
 ## 🏗️ Architecture dbt
 
-Le projet s'appuie sur une **architecture en médaillon** (*medallion*), qui organise la **modélisation des données** en couches successives, des données brutes jusqu'à la restitution. Chaque couche affine la précédente : les données sont d'abord **collectées et standardisées**, puis **modélisées et enrichies** (jointures, classements, KPIs), enfin **agrégées** pour le pilotage.
+Le projet s'appuie sur une **architecture en médaillon** (*medallion*), des données brutes jusqu'à la restitution. Chaque couche affine la précédente : les données sont d'abord **collectées et standardisées**, puis **modélisées et enrichies** (jointures, classements, KPIs), enfin **agrégées** pour les tableaux de bords finaux.
 
-Le dépôt contient **34 modèles SQL**, répartis sur les trois couches de l'architecture en médaillon :
+Le repo contient **34 modèles SQL**, répartis sur les trois couches :
 
-| Couche en médaillon | Couche dbt | Modèles | Rôle |
+| Niveau | Couche dbt | Modèles | Rôle |
 |---|---|---|---|
 | 🥉 **Bronze** | `staging` | **9** | Collecte et standardisation des sources brutes |
 | 🥈 **Argent** | `intermediate` | **21** | Modélisation des données : nettoyage, jointures, agrégations, classements et KPIs |
@@ -336,9 +336,9 @@ Stack: **BigQuery, SQL, dbt and Looker Studio**.
 
 ## 🏗️ dbt architecture
 
-The project follows a **medallion architecture**, which organizes **data modeling** into successive layers, from raw data all the way to reporting. Each layer refines the previous one: data is first **collected and standardized**, then **modeled and enriched** (joins, rankings, KPIs), and finally **aggregated** for decision-making.
+The project follows a **medallion architecture**, from raw data all the way to reporting. Each layer refines the previous one: data is first **collected and standardized**, then **modeled and enriched** (joins, rankings, KPIs), and finally **aggregated** for decision-making.
 
-The repository contains **34 SQL models**, spread across the three layers of the medallion architecture:
+The repository contains **34 SQL models**, spread across the three layers:
 
 | Medallion layer | dbt layer | Models | Role |
 |---|---|---|---|
