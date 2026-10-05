@@ -82,7 +82,7 @@ Stack : **BigQuery, SQL, dbt et Looker Studio**.
 
 ## 🏗️ Architecture dbt
 
-Le projet s'appuie sur une **architecture en médaillon** (*medallion*), des données brutes jusqu'à la restitution. Chaque couche affine la précédente : les données sont d'abord **collectées et standardisées**, puis **modélisées et enrichies** (jointures, classements, KPIs), enfin **agrégées** pour les tableaux de bords finaux.
+Le projet s'appuie sur une **architecture en médaillon** (*medallion*), des données brutes jusqu'à la restitution. Chaque couche affine la précédente : les données sont d'abord **collectées, nettoyées et standardisées**, puis **modélisées et enrichies** (jointures, classements, KPIs), enfin **agrégées** pour les tableaux de bords finaux.
 
 Le repo contient **34 modèles SQL**, répartis sur les trois couches :
 
@@ -99,7 +99,7 @@ SOURCES BRUTES
 ┌─────────────────────────────────────┐
 │ BRONZE · PRÉPARATION : 9 modèles    │
 │                                     │
-│ Renommage / standardisation         │
+│ Nettoyage / standardisation         │
 └──────────────────┬──────────────────┘
                     │
                     ▼
@@ -336,7 +336,7 @@ Stack: **BigQuery, SQL, dbt and Looker Studio**.
 
 ## 🏗️ dbt architecture
 
-The project follows a **medallion architecture**, from raw data all the way to reporting. Each layer refines the previous one: data is first **collected and standardized**, then **modeled and enriched** (joins, rankings, KPIs), and finally **aggregated** for decision-making.
+The project follows a **medallion architecture**, from raw data all the way to reporting. Each layer refines the previous one: data is first **collected, cleaned and standardized**, then **modeled and enriched** (joins, rankings, KPIs), and finally **aggregated** for decision-making.
 
 The repository contains **34 SQL models**, spread across the three layers:
 
@@ -353,7 +353,7 @@ RAW SOURCES
 ┌─────────────────────────────────────┐
 │ BRONZE · STAGING: 9 models          │
 │                                     │
-│ Rename / standardize / prepare      │
+│ Clean / standardize / prepare      │
 └──────────────────┬──────────────────┘
                     │
                     ▼
