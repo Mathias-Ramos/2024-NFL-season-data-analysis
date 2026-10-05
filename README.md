@@ -24,7 +24,7 @@
 # 🏈 Saison NFL 2024 : Analyse des Arizona Cardinals
 
 <p align="center">
-  <strong>Des données NFL brutes aux comparaisons de joueurs, aux tendances des adversaires et aux recommandations défensives contextualisées.</strong>
+  <strong>Transformer la donnée NFL en décisions : classements de joueurs, tendances d'adversaires et plans défensifs contextualisés.</strong>
 </p>
 
 <p align="center">
@@ -278,7 +278,7 @@ Vous pouvez retrouver d'autres projets dans mon **[Portfolio](https://github.com
 # 🏈 2024 NFL Season - Arizona Cardinals Data Analysis
 
 <p align="center">
-  <strong>From raw NFL data to player comparisons, opponent tendencies and contextualized defensive recommendations.</strong>
+  <strong>Turning NFL data into decisions: player rankings, opponent tendencies and contextualized defensive plans.</strong>
 </p>
 
 <p align="center">
