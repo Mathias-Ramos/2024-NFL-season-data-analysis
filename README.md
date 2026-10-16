@@ -72,7 +72,7 @@ Stack : **BigQuery, SQL, dbt et Looker Studio**.
 | Préparation des données | **Google Sheets** | Préparation et nettoyage initiaux |
 | Contrôle de version | **Git / GitHub** | Gestion du code source et documentation du projet |
 
-## 🛠️ Approche analytique
+## 🛠️ Méthodologie
 
 1. **Préparer les données** : Nettoyer et standardiser les données d'équipes, de joueurs et de play-by-play dans dbt.
 2. **Transformer et modéliser** : Construire la **modélisation des données** via les modèles dbt pour les matchs, les actions et les joueurs, avec jointures, KPIs, classements et normalisation des données.
@@ -326,7 +326,7 @@ Stack: **BigQuery, SQL, dbt and Looker Studio**.
 | Data preparation | **Google Sheets** | Initial preparation / cleaning |
 | Version control | **Git / GitHub** | Source control and project documentation |
 
-## 🛠️ Analytical approach
+## 🛠️ Methodology
 
 1. **Prepare the data**: Clean and standardize team, player and play-by-play data in dbt.
 2. **Transform & model**: Build the **data modeling** layer through dbt models for games, plays and players, including joins, KPIs, rankings and normalization.
